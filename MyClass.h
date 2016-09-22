@@ -1,8 +1,9 @@
-
-class MyClass
+#include <string>
+using namespace std;
+class myClass
    {
      private:
-	int num;
+	int num; 
 	string room;
 	bool fun;
 
@@ -13,3 +14,4 @@ class MyClass
 	string getRoom();
 	void setFun(bool);
 	bool getFun();
+};
